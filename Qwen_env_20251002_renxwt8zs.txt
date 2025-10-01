@@ -1,5 +1,0 @@
-# .env
-TELEGRAM_BOT_TOKEN=8398672603:AAEnnDiHWm8gfItg2MtXP-0p_ZpFPG6L9wk
-BOT_USERNAME=my_dealhunter_bot
-PORT=3000
-NODE_ENV=production
