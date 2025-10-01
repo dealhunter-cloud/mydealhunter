@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: dealhunter-bot
+    env: node
+    region: oregon
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        value: 8398672603:AAEnnDiHWm8gfItg2MtXP-0p_ZpFPG6L9wk
+      - key: BOT_USERNAME
+        value: my_dealhunter_bot
+      - key: NODE_ENV
+        value: production
